@@ -1,0 +1,16 @@
+table, td {
+    border: thin solid;
+}
+
+td {
+    background: rgb(140, 245, 207) url(../images/flecha2.png) no-repeat;
+    background-size: contain;
+    padding: 10px;
+    margin: 0;
+    padding-left: 40px;
+}
+
+td:hover {
+    background: rgb(123, 134, 238) url(../images/flecha2.png) no-repeat;
+    background-size: contain;
+}

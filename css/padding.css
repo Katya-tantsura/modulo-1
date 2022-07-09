@@ -1,0 +1,10 @@
+.frame {
+    width: 500px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.box1 {
+    border: 4px dotted red;
+    background-color: grey;
+}

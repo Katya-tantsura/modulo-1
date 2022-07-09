@@ -1,0 +1,29 @@
+p::first-letter {
+    color: rgb(246, 11, 93);
+    font-size: xx-large;
+    font-family: Arial, serif;
+    margin-left: 30px;
+}
+
+p::first-line {
+    color: rgb(113, 11, 246);
+        font-size: 1.2em;
+        font-family: Arial, serif;
+        ;
+
+}
+
+p::before {
+content: "vhgkjhkjk";
+color: rgb(20, 198, 247);
+}
+
+p::after {
+content: "bbjbjbj";
+color: rgb(125, 7, 78);
+font-style: bold;
+}
+
+p::selection {
+    background-color: yellowgreen;
+}

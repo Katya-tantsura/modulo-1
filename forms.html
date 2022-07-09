@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <main>
+
+
+<!-- Text -->
+  <form action="Destino" method="get">
+    <fieldset>
+        <legend>Datos personales</legend>
+    <label for="nombreTxt">Nombre:</label>
+    <input type="text" name="nombre" id="nombreTxt" / > <br / >
+
+    <label for="pwTxt">Password:</label>
+    <input type="password" name="pw" id="pwTxt" / > <br / >
+
+    <label for="cvFile">Adjuntar curriculum</label>
+    <input type="file" name="cv" id="cvFile" / > <br />
+    </fieldset>
+
+
+    <!-- Radio -->
+    <fieldset>
+      <legend>Sexo</legend>
+    <label>Sexo</label>
+    <input type="radio" name="sexo" id="sexoH" value="homre" checked="checked" / >
+    <label for="sexoH">Hombre</label>
+    <input type="radio" name="sexo" id="sexoM" value="mujer" / >
+    <label for="sexoM">Mujer</label> <br / >
+    </fieldset>
+
+
+<!-- Checkbox -->
+<fieldset>
+    <legend>Datos Academicos</legend>
+    <label>Idiomas:</label>
+
+    <input type="checkbox" name="idioma" id="idiomaIngles" value="ingles" / >
+    <label for="idiomaIngles">Ingles</label>
+
+    <input type="checkbox" name="idioma" id="idiomaFrances" value="frances" / >
+    <label for="idiomaFrances">Frances</label>
+    
+    <input type="checkbox" name="idioma" id="idiomaAleman" value="aleman" / >
+    <label for="idiomaAleman">Aleman</label>
+</fieldset>
+
+
+<!-- Select -->
+<fieldset>
+  <legend>Eleccion</legend>
+<label for="nivelEstudios">Niveles de estudios:</label>
+<select name="estudios" id="nivelEstudios">
+<option value="nada" selected="selected">Sin estudios</option>
+<option value="eso">ESO</option>
+<option value="medio">medio</option>
+<option value="grado">Grado</option>
+</select>
+</fieldset>
+
+<!-- !!!!!!!! -->
+<fieldset>
+  <legend>Eleccion</legend>
+  <label for="nivdeEstudios">Niveles de estudios:</label>
+  <select name="estudios" id="nivdeEstudios" multiple="multiple">
+    <option value="nada">Sin estudios</option>
+    <option value="eso">ESO</option>
+    <option value="medio">medio</option>
+    <option value="grado">Grado</option>
+  </select> <br / >
+  </fieldset>
+
+<!-- Textarea -->
+  <fieldset>
+  <label for="expLaboreal">Cuentanos tu experiencia labiral</label><br / >
+  <textarea name="experiencia" id="expLaboral" cols="30" rows="10"></textarea>
+</fieldset>
+
+
+<!-- Reset / Sabmit -->
+<input type="reset" value="Limpiar" / >
+<input type="submit" value="Enviar" / >
+  </form>
+
+
+
+  </main>
+</body>
+</html> 

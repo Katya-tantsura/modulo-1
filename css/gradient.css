@@ -1,0 +1,58 @@
+/* Gradientes */
+
+div {
+    width: 80%;
+    height: 150px;
+    margin: 20px;
+    background-color: burlywood;
+}
+
+.bottom {
+    background: linear-gradient(to bottom, red, orange, yellow, green, blue, violet);
+}
+
+.top {
+    background: linear-gradient(to top, red, orange, yellow, green, blue, violet);
+
+}
+
+.right {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, violet);
+}
+
+.left {
+    background: linear-gradient(to left, red, orange, yellow, green, blue, violet);
+}
+
+.top-right {
+    background: linear-gradient(to top right, red, orange, yellow, green, blue, violet);
+}
+
+.bottom-left {
+    background: linear-gradient(to bottom left, red, orange, yellow, green, blue, violet);
+}
+
+
+/* Gradientes radiales */
+
+.b {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(red, orange, green);
+}
+
+.circle {
+    
+    background: radial-gradient(circle, red, orange, green);
+}
+
+.ellipse {
+   
+    background: radial-gradient(ellipse, red, orange, green);
+}
+
+.repetir {
+
+    background: repeating-radial-gradient(ellipse, red 10%, orange 20%, green 40%);
+}

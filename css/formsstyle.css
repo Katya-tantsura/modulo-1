@@ -1,0 +1,56 @@
+input:disabled {
+    color: red;
+}
+input[type=checkbox]:checked + label {
+    color: green;
+    font-weight: bold;
+}
+
+/* funcsiona con radio y checkbox */
+
+input:focus + label {
+    border: thin solid coral;
+} 
+
+/* para las cajas de texto */
+
+input:focus {
+    outline: none;
+    border: thin solid coral;
+    
+}
+
+ol li[id^="P"] {
+     background-color:  yellow;
+     width: fit-content;
+}
+
+ol li[id$="e"], ol li[id$="L"]{
+    background-color: aqua;
+    width: fit-content;
+
+}
+/* otra opcion */
+
+/* ol li:is([id$="e"], [id$="E"]) {
+    background-color: red;
+    width: fit-content;
+
+} */
+
+/* Таблицы ( стили ) */
+
+#tabla1 tr:nth-last-child(even) {
+    background-color: aquamarine;
+}
+#tabla1 tr:nth-last-child(odd) {
+    background-color: rgb(255, 127, 170);
+}
+
+#tabla2 th:nth-last-child(even), #tabla2 td:nth-last-child(even) {
+    background-color: rgb(180, 232, 75);
+}
+
+#tabla2 th:nth-last-child(odd), #tabla2 td:nth-last-child(odd) {
+    background-color: rgb(234, 9, 84);
+}

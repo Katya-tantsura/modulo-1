@@ -1,0 +1,77 @@
+
+
+.animation {
+    width: 30%;
+    min-height: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    transition: width 2s, height 4s, background-color 6s;
+   
+}
+
+.animation:hover {
+    width: 70%;
+    min-height: 20px;
+    background-color: blueviolet;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Option 1 */
+
+/* li {
+transform: translateX(0px);
+}
+
+li:hover {
+transform: translateX(10px);
+} */
+
+/* Option 2 */
+
+li {
+    transition: margin-left 1s, font-weight 1s, font-size 1s;
+    transition: all 1s;
+
+}
+
+li:hover {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+
+}
+
+/* Option 3 */
+
+/* li {
+    transition: all 0.5s ease-in;
+    font-size: large;
+}
+
+li:hover {
+    font-weight: bold;
+    font-size: x-large;
+    transform: translateX(1rem);
+}
+
+ul {
+    list-style: none;
+} */
+
+
+.animation2 {
+    width: 200px;
+    height: 200px;
+    font-size: 1em;
+    background-color: aquamarine;
+    animation-name: animation2;
+    animation-duration: 10s;
+}
+
+/* @keyframes animation2 {
+    
+} */
