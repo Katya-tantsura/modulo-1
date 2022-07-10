@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/home-work.css">
+</head>
+
+<body>
+    <form action="url" method="get">
+        <div class="column">
+            <label for="nameTxt">First name</label>
+            <input type="text" name="name" id="nameTxt" required="required" minlength="3" maxlength="20" value="Jonathan"/ >
+            <label for="surnameTxt">Last name</label>
+            <input type="text" name="surname" id="surnameTxt" required="required" minlength="3" maxlength="20" value="Doe">
+            <label for="emailTxt">Email address</label>
+            <input type="email" name="email" id="emailTxt" value="jon@doe.com">
+            <label for="country">Country</label>
+            <select name="country" id="country" value="Choose a country">
+                <option>Germany</option>
+                <option>Finland</option>
+                <option>Spain</option>
+                <option>Greece</option>
+                <option>Norway</option>
+            </select>
+            <label for="biography">Biography</label>
+            <textarea name="biography" id="biography" cols="30" rows="10"></textarea>
+        </div>
+        <div class="column">
+            <label for="phoneTxt">Phone number</label>
+            <input type="tel" name="phone" id="phoneTxt">
+            <label for="affiliations">Affiliations</label>
+            <textarea name="affiliations" id="affiliations" cols="30" rows="10"></textarea>
+            <label for="occupation">Occupation</label>
+            <select name="occupation" id="occupation">
+                <option>Front End developer</option>
+                <option>Back End developer</option>
+                <option>QA</option>
+                <option>Designer</option>
+            </select>
+            <label for="catsName">Cat's name</label>
+            <input type="text" name="catsName" id="catsName"/>
+            <label for="gadgetName">Favorite gadget</label>
+            <input type="text" name="gadgetName" id="gadgetName" />
+        </div>
+        <div class="column">
+            <label for="talentType">Type of talent</label>
+            <select name="talentType" id="talentType">
+                <option>Playing an Instrument</option>
+                <option>Dancing</option>
+                <option>Painting</option>
+                <option>Singing</option>
+            </select>
+            <label for="drinkName">Favorite drink</label>
+            <input type="text" name="drinkName" id="drinkName" />
+            <label for="powerName">Special power</label>
+            <input type="text" name="powerName" id="powerName" />
+            <label for="weaponName">Weapon of choice</label>
+            <input type="text" name="weaponName" id="weaponName" />
+            <label for="comments">Comments</label>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        </div>
+    </form>
+</body>
+
+</html>
