@@ -1,20 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0; 
+}
 form {
     display: flex;
     justify-content: space-around;
-    padding: 30px 5px 10px 5px;
+    padding: 30px 5px 5px 5px;
     background-color: rgb(8, 196, 239);
 }
 .column {
     width: 33%;
     padding: 20px;
 }
-label, input {
+input, textarea, select {
     width: 100%;
     display: block;
+    margin-bottom: 25px;
+    outline: none;
+    border: 2px solid #ffffff;
+    background-color: rgb(8, 196, 239);
 }
 label {
-    font-size: 1.1em;
+    font-size: 14px;
+    font-style: normal;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    color: rgb(249, 245, 245);
+    letter-spacing: 2px;
+    font-weight: normal;
+    line-height: 1.7;
+    font-size: 1em;
+    color: #ffffff;
 }
