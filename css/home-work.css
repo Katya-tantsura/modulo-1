@@ -12,7 +12,7 @@ body {
 }
 form {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     width: 1200px;
     margin: 0 auto;
     padding: 40px 10px 15px;
@@ -20,18 +20,21 @@ form {
 }
 .column {
     width: 30%;
-    padding: 20px;
-}
-.column:not(:last-child){
-    margin-left: 20px;
+    /* padding: 20px; */
 }
 input, textarea, select {
     width: 100%;
     display: block;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
     outline: none;
     border: 2px solid #ffffff;
     background-color: rgb(8, 196, 239);
+}
+textarea:not(:last-child) {
+    margin-bottom: 25px;
+}
+input:not(:last-child) {
+    margin-bottom: 25px;
 }
 label {
     font-size: 15px;
@@ -49,6 +52,5 @@ input {
 input::placeholder {
     font-size: 16px;
     font-style: italic;
-    /* font-style: normal; */
     color: rgb(41, 41, 97);
 }
