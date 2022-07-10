@@ -12,14 +12,14 @@
 <body>
     <form action="url" method="get">
         <div class="column">
-            <label for="nameTxt">First name</label>
-            <input type="text" name="name" id="nameTxt" required="required" minlength="3" maxlength="20" value="Jonathan"/ >
-            <label for="surnameTxt">Last name</label>
-            <input type="text" name="surname" id="surnameTxt" required="required" minlength="3" maxlength="20" value="Doe">
-            <label for="emailTxt">Email address</label>
-            <input type="email" name="email" id="emailTxt" value="jon@doe.com">
+            <label for="first_name">First name</label>
+            <input type="text" name="first_name" id="first_name" required="required" minlength="3" maxlength="20" placeholder="Jonathan"/ >
+            <label for="last_name">Last name</label>
+            <input type="text" name="last_name" id="last_name" required="required" minlength="3" maxlength="20" placeholder="Doe">
+            <label for="email">Email address</label>
+            <input type="email" name="email" id="email" placeholder="jon@doe.com">
             <label for="country">Country</label>
-            <select name="country" id="country" value="Choose a country">
+            <select name="country" id="country" placeholder="Choose a country">
                 <option>Germany</option>
                 <option>Finland</option>
                 <option>Spain</option>
@@ -31,7 +31,7 @@
         </div>
         <div class="column">
             <label for="phoneTxt">Phone number</label>
-            <input type="tel" name="phone" id="phoneTxt">
+            <input type="tel" name="phone" id="phoneTxt" placeholder="+351 999 999">
             <label for="affiliations">Affiliations</label>
             <textarea name="affiliations" id="affiliations" cols="30" rows="10"></textarea>
             <label for="occupation">Occupation</label>
@@ -42,9 +42,9 @@
                 <option>Designer</option>
             </select>
             <label for="catsName">Cat's name</label>
-            <input type="text" name="catsName" id="catsName"/>
+            <input type="text" name="catsName" id="catsName" placeholder="Kitty"/>
             <label for="gadgetName">Favorite gadget</label>
-            <input type="text" name="gadgetName" id="gadgetName" />
+            <input type="text" name="gadgetName" id="gadgetName" placeholder="Annoy-a-Tron"/>
         </div>
         <div class="column">
             <label for="talentType">Type of talent</label>
@@ -55,11 +55,11 @@
                 <option>Singing</option>
             </select>
             <label for="drinkName">Favorite drink</label>
-            <input type="text" name="drinkName" id="drinkName" />
+            <input type="text" name="drinkName" id="drinkName" placeholder="Green Tea"/>
             <label for="powerName">Special power</label>
-            <input type="text" name="powerName" id="powerName" />
+            <input type="text" name="powerName" id="powerName" placeholder="Anti-gravity"/>
             <label for="weaponName">Weapon of choice</label>
-            <input type="text" name="weaponName" id="weaponName" />
+            <input type="text" name="weaponName" id="weaponName" placeholder="Lightsaber" />
             <label for="comments">Comments</label>
             <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
         </div>

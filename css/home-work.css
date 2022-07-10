@@ -13,12 +13,17 @@ body {
 form {
     display: flex;
     justify-content: space-around;
-    padding: 30px 5px 5px 5px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 10px 15px;
     background-color: rgb(8, 196, 239);
 }
 .column {
-    width: 33%;
+    width: 30%;
     padding: 20px;
+}
+.column:not(:last-child){
+    margin-left: 20px;
 }
 input, textarea, select {
     width: 100%;
@@ -29,7 +34,7 @@ input, textarea, select {
     background-color: rgb(8, 196, 239);
 }
 label {
-    font-size: 14px;
+    font-size: 15px;
     font-style: normal;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -37,4 +42,13 @@ label {
     line-height: 1.7;
     font-size: 1em;
     color: #ffffff;
+}
+input {
+    padding: 8px;
+}
+input::placeholder {
+    font-size: 16px;
+    font-style: italic;
+    /* font-style: normal; */
+    color: rgb(41, 41, 97);
 }
